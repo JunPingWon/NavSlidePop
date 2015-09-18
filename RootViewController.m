@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.title = @"One";
     self.view.backgroundColor = [UIColor cyanColor];
-    UIButton *pushBtn = [[UIButton alloc]initWithFrame:CGRectMake(55, 100, 100, 100)];
+    UIButton *pushBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     [pushBtn setTitle:@"PUSH" forState:UIControlStateNormal];
     [pushBtn addTarget:self action:@selector(pushBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pushBtn];
